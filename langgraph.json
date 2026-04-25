@@ -1,0 +1,8 @@
+{
+  "graphs": {
+    "ingestion_pipeline": "./agent/graph.py:ingestion_graph",
+    "query_pipeline": "./agent/graph.py:query_graph"
+  },
+  "dependencies": ["./requirements.txt"],
+  "env": ".env"
+}
